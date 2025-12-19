@@ -17,7 +17,7 @@ const App: React.FC = () => {
           Applications
         </h1>
         <p className="text-zinc-500 dark:text-zinc-400 text-lg font-medium">
-          Open source et modifiables à souhait
+          Open source et modifiable à souhait
         </p>
       </header>
 
