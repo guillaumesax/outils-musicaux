@@ -1,13 +1,9 @@
 
-export interface LinkItem {
-  label: string;
-  url: string;
-  description?: string;
-  icon?: string;
-}
-
-export interface Category {
+export interface AppConfig {
   id: string;
-  title: string;
-  links: LinkItem[];
+  name: string;
+  description: string;
+  url: string;
+  iconUrl: string;
+  color: string;
 }
